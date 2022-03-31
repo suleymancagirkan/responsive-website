@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(17, 17, 17) !important;
+  color: #fff !important;
+  transition: 500ms all;
+}
+
+body.light {
+  background-color: rgb(241, 241, 241) !important;
+  color: rgb(17, 17, 17) !important;
+}
+body .h1 {
+  font-size: 50px;
+  position: relative;
+  top: 190px;
+  justify-content: center;
+  text-align: center;
+}
+
+body .bilgilendirme {
+  font-size: 25px;
+  position: relative;
+  top: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+body .h2 {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  left: -1px;
+  top: 200px;
+}
+
+body ul li {
+  list-style-type:none;
+  position: relative;
+  left: 640px;
+  top: 200px;
+  padding: 13px;
+  float: left;
+}
+
+body .wallpaper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body .pp {
+    position: relative;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 220px;
+}
+
+  .favicon {
+    border-radius: 50px;
+  }  
+
+
+.wrapper{
+        width: 400px;
+        font-family: 'Roboto', sans-serif;
+  margin:0 auto;
+    }
+    .skill {
+        margin-bottom: 35px;
+        position: relative;
+      overflow-x:hidden;
+      
+    }
+    .skill > p {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1a1716;
+        margin: 0;
+    }
+    .skill:before{
+        width: 100%;
+        height: 5px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: #959595;
+        bottom: 0;
+    }
+    .skill-bar {
+        width: 100%;
+        height: 5px;
+        background:#f4392f;
+        display: block;
+        position: relative;
+    }
+
+    /* SKILL 1 */
+    .skill1{
+        width: 95%;
+      
+    }
+    .skill-bar span{
+        position: absolute;
+        border-top: 5px solid #f4392f;
+        top: -30px;
+        padding: 0;
+        font-size: 18px;
+        padding: 3px 0;
+        font-weight: 300;
+    }
+    .skill-bar {
+        position: relative;
+      
+    }
+
+    .skill1 .skill-count1 {
+        right: 0;
+    }
+    /* SKILL 2 */
+    .skill2{
+        width: 85%;
+    }
+
+    .skill2 .skill-count2 {
+        right: 0;
+    }
+    /* SKILL 3 */
+    .skill3{
+        width: 75%;
+    }
+    .skill3 .skill-count3 {
+        right: 0;
+    }
+
+    /* SKILL 4 */
+    .skill4{
+        width: 65%
+    }
+
+    .skill4 .skill-count4 {
+        right: 0;
+    }
+
+    /* SKILL 5 */
+    .skill5{
+        width: 80%;
+    }
+
+    .skill5 .skill-count5 {
+        right: 0;
+    }
+
+    /* SKILL 6 */
+    .skill6{
+        width: 90%
+    }
+
+    .skill6 .skill-count6 {
+        right: 0;
+    }
+
+
+
+.toggle {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  top: 250px;
+  text-align: center;
+  right: 15px;
+}
+
+.mode-control {
+  cursor: pointer;
+}
+
+.mode-control input {
+  opacity: 0;
+}
+
+.mode-control span:nth-of-type(2) {
+  display: none;
+}
+
+.mode-control input:checked + span {
+  display: none;
+}
+
+.mode-control input:checked + span + span {
+  display: inline-block;
+}
+
+.fab.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.h2 a {
+  text-decoration-color: #ffffff;
+  color: #ffffff;
+}
